@@ -19,8 +19,7 @@ describe 'tennis game' do
 	describe 'scoring' do
 		describe 'player 1 first' do
 			before(:each) do
-				game.score_1
-			end
+				game.score_1 end
 			it 'player 1 scores first then score should be 15-0' do
 			
 				game.print_score.should eq '15-0'
